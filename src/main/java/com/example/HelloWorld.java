@@ -7,6 +7,6 @@ public class HelloWorld {
 
     public String getGreeting() {
         //if change the return value, the test will fail, as in test script use assertEquals to check the return value of this method
-        return "Hello, student!";
+        return "Hello, World!";
     }
 }
