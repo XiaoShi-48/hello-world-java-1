@@ -60,9 +60,6 @@ jobs:
         with:
           name: code-coverage-report
           path: build/reports/jacoco/test/html/**
-
-      - name: Run Deployment
-        run: java -jar build/libs/*.jar
         
   deployment:
     runs-on: ubuntu-latest
